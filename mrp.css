@@ -30,7 +30,7 @@ a, li {
 }
 
 .header {
-  background-image: url("./mrpassets/SAMPUL.png");
+  background-image: url("SAMPUL.png");
   background-size: cover;
   height: 40.5rem;
   padding-top: 2vw;
