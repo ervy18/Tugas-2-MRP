@@ -38,7 +38,7 @@
 
   .item {
     padding-top: 0.8vw;
-    position: absolute;
+    width: 16vw;
     margin-top: -11.3vw;
   }
 
@@ -57,10 +57,6 @@
     margin-top: 2vw;
   }
 
-  .menu-list .btn{
-    margin-left: -2.5vw;
-  }
-
   .header {
     height: 30rem;
   }
@@ -71,10 +67,11 @@
     margin-left: 1vw;
   }
 
-  .main {
+ .main {
+    padding: 0;
     margin-top: 2vw;
-    flex: 100%
-    padding: 0vw;
+    flex: 100%;
+    margin-left: 4vw;
   }
 
   .item {
@@ -82,7 +79,8 @@
     margin-top: 7vw;
     margin-bottom: -2vw;
     margin-left: 11vw;
-    margin-right: 11vw;
+    margin-right: 10vw;
+    width: 76.3vw;
   }
 
   .item img{
@@ -99,7 +97,7 @@
   }
 
   .side {
-    width: 100%;
+    flex: 100%;
     margin-top: -7vw;
     margin-bottom: 4vw;
   }
@@ -128,92 +126,77 @@
   .header {
     height: 15rem;
     padding-top: 0.5rem;
+    padding-right: 0.2rem;
     padding-left: 0.5rem;
-    padding-right: 0.5rem;
   }
 
-  .menu-media a {
-    margin-left: -5vw;
-  }
+.menu-media input {
+  margin-right: 5vw;
+}
 
-  .menu-media img{
-    height: 3.5vw;
-    margin-top: -2vw;
-    margin-right: -1vw;
-  }
+.menu-media img {
+  height: 3vw;
+  margin-top: -3vw;
+}
 
-  .header-input input{
-    margin-right: 5vw;
-    margin-top: 4.5vw;
-  }
+.menu-media .btn {
+  margin-left: -6vw;
+}
 
-  .menu-list .btn{
-    font-size: 1.7vw;
-    margin-top: -3vw;
-    font-weight: normal;
-  }
+.main {
+  flex: 100%;
+  margin-right: -6vw;
+  padding: 0;
+}
 
-  .header-title p {
-    font-size: 1.7vw;
-  }
+.card h2 {
+  font-size: 6vw;
+}
 
-  .menu-list .dropdown-item {
-    font-size: 2.5vw;
-    margin-left: 4vw;
-    padding: 0vw 0vw
-  }
+.card p{
+  font-size: 3vw;
+}
 
-  .main {
-    flex:100%;
-  }
+.card h6 {
+    font-size: 4vw;
+}
 
-  .card h2{
-    font-size: 5vw;
-  }
+.card-deck {
+  margin-bottom: -3vw;
+}
 
-  .card p{
-    font-size: 3vw;
-  }
+.side {
+  flex: 100%;
+  margin: 0vw;
+  padding: 0vw;
+}
 
-  .card h6 {
-    font-size: 3vw;
-  }
+.item {
+  margin-top: -4.8vw;
+  position: relative;
+  margin-left:9vw;
+  width: 86.5vw;
+  margin-right: -5vw;
+  margin-bottom: 3vw;
+}
 
-  .card img{
-    height: 3vw;
-  }
+.tabel {
+  margin:0vw 6.2vw;
+  padding: 0;
+}
 
-  .side {
-    width: 100vw;
-    margin-top: -7vw;
-    margin-bottom: 4vw;
-  }
+.table {
+  position: relative;
+ font-size: 3vw;
+ width: 100vw;
+ margin-right: -10vw;
+}
 
-  .side p {
-    font-size: 5vw;
-  }
+.table img {
+  height: 4vw;
+}
 
-  .side img {
-    height: 15vw;
-  }
-
-  .kalender h1{
-    font-size: 12vw;
-    margin-top: 5vw;
-  }
-
-  .kalender h3{
-    font-size: 5vw;
-  }
-
-
-  .item {
-    margin: -1.5vw 5vw;
-    position: relative;
-  }
-
-  .tabel {
-    margin-left: 1vw;
-    margin-right: 1vw;
-  }
+.footer p{
+  margin-bottom: 0vw;
+}
 }
